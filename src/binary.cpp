@@ -2,7 +2,9 @@
 
 #include <cctype>
 
+
 namespace YAML {
+
 static const char encoding[] =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 

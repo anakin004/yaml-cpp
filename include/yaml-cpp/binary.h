@@ -19,6 +19,7 @@ YAML_CPP_API std::vector<unsigned char> DecodeBase64(const std::string &input);
 
 class YAML_CPP_API Binary {
  public:
+
   Binary(const unsigned char *data_, std::size_t size_)
       : m_data{}, m_unownedData(data_), m_unownedSize(size_) {}
   Binary() : Binary(nullptr, 0) {}
